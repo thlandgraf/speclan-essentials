@@ -1,0 +1,25 @@
+{
+  "name": "speclan-essentials",
+  "version": "0.1.0",
+  "description": "Essential tools for the Speclan VS Code extension",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "build:mcp-bridge": "esbuild speclan-mcp-bridge/speclan-mcp-bridge.ts --bundle --platform=node --target=node20 --format=esm --outfile=dist/speclan-mcp-bridge.mjs --banner:js='#!/usr/bin/env node'",
+    "mcp-bridge": "tsx speclan-mcp-bridge/speclan-mcp-bridge.ts",
+    "mcp-bridge:build": "tsc && node dist/speclan-mcp-bridge/mcp-bridge.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "esbuild": "^0.27.3",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
