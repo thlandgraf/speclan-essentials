@@ -1,6 +1,8 @@
-# speclan-essentials
+# SPECLAN Essentials
 
-Companion tools that enhance the daily agentic AI workflow with [SPECLAN](https://speclan.net) — the VS Code extension that turns structured specifications into AI-ready prompts.
+Companion tools that enhance the daily agentic AI workflow with [SPECLAN](https://speclan.net) — the [VS Code extension](https://marketplace.visualstudio.com/items?itemName=DigitalDividend.speclan-vscode-extension) that turns structured specifications into AI-ready prompts.
+
+![speclan](./speclan.png)
 
 SPECLAN sits between business intent and AI coding agents as the missing middle layer. It manages specification trees (goals, features, requirements, scenarios, tests) as plain Markdown files in your project folder — no database, no server, no lock-in. These tools extend that workflow beyond the extension itself.
 
