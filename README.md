@@ -1,5 +1,10 @@
 # SPECLAN Essentials
 
+[![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/DigitalDividend.speclan-vscode-extension?label=VS%20Code%20Marketplace&color=007ACC&logo=visualstudiocode&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=DigitalDividend.speclan-vscode-extension)
+[![docs](https://img.shields.io/badge/docs-speclan.net-success)](https://speclan.net)
+[![spec-driven-development](https://img.shields.io/badge/topic-spec--driven--development-blue?logo=github&logoColor=white)](https://github.com/topics/spec-driven-development)
+[![mcp](https://img.shields.io/badge/topic-mcp-7c3aed?logo=github&logoColor=white)](https://github.com/topics/mcp)
+
 Companion tools that enhance the daily agentic AI workflow with [SPECLAN](https://speclan.net) — the [VS Code extension](https://marketplace.visualstudio.com/items?itemName=DigitalDividend.speclan-vscode-extension) that turns structured specifications into AI-ready prompts.
 
 ![speclan](./speclan.png)
